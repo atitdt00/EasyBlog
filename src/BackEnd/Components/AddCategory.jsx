@@ -34,16 +34,16 @@ function AddCategory() {
       <Dashboard>
         <div>
           <form onSubmit={handleSubmit(onsubmit)}>
-            <div className="flex flex-col lg:flex-row items-center gap-10 p-20">
+            <div className="flex flex-col lg:flex-row items-center gap-10 p-40">
               <input
                 type="text"
-                className="border rounded px-10 py-2 flex-1 outline-none"
+                className="border-2 rounded px-10 py-5 flex-1 outline-none text-4xl"
                 id="category"
                 placeholder="type any category name"
                 {...register("category")}
               />
               <button
-                className="border rounded px-10 py-2 hover:bg-amber-300/100"
+                className="border-2 rounded px-10 py-6 text-xl  hover:font-bold hover:bg-amber-300/100"
                 type="submit"
               >
                 ADD

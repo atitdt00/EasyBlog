@@ -19,7 +19,7 @@ function MainNav() {
         {" "}
         <div className=" mx-auto max-w-[1400px] flex justify-between gap-3 items-center p-5">
           <div className="">
-            <h1 className="font-bold text-4xl text-amber-600 hover:text-amber-400">
+            <h1 className="font-bold font-heading text-4xl text-amber-600 hover:text-amber-400">
               Easy Blog
             </h1>
           </div>
