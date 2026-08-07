@@ -44,13 +44,13 @@ function MainNav() {
           </div>
         </div>
         <div
-          className={`flex flex-col lg:hidden absolute top-20 z-10 right-0 transition-all duration-500 ease-in-out origin-top ${move ? "max-h-300" : "max-h-0 hidden"}`}
+          className={`flex flex-col lg:hidden absolute top-20 z-100 right-0 transition-all duration-500 ease-in-out origin-top ${move ? "max-h-300" : "max-h-0 hidden"}`}
         >
           {showMenu &&
             pages.map((item, index) => (
               <nav
                 key={index}
-                className="py-3 bg-amber-400/40 hover:bg-amber-600/80 transition-all duration-500"
+                className="py-3 bg-amber-400 hover:bg-amber-600/80 transition-all duration-500"
               >
                 <Link
                   to={item.link}

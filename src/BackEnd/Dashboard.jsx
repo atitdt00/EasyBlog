@@ -6,7 +6,7 @@ function Dashboard({ children }) {
   return (
     <>
       <div className=" min-h-[100dvh] text-yellow-800">
-        <div className=" w-full py-6 text-center ">
+        <div className=" w-full py-6 text-center bg-yellow-200">
           <Link
             to={`/dashboard/`}
             className="max-w-full h-2 text-yellow-800 font-bold font-title text-4xl"

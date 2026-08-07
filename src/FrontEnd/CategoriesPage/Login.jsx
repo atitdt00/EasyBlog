@@ -15,7 +15,7 @@ function Login() {
   };
   return (
     <>
-      <div className=" max-w-full">
+      <div className="max-w-full">
         <div className="mx-auto flex justify-center items-center h-screen max-w-[1400px] ">
           <form onSubmit={handleSubmit(onsubmit)}>
             <div className=" backdrop-blur-sm bg-amber-300/70 inset-2 p-5 rounded shadow-2xl/50 text-white">
