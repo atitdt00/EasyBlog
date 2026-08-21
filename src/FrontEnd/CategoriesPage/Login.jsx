@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 function Login() {
   const navigate = useNavigate();
-  let { register, handleSubmit, reset } = useForm();
+  let { register, handleSubmit } = useForm();
   const onsubmit = (data) => {
     console.log(data);
     if (data.username == "admin" && data.password == "1234") {
